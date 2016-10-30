@@ -1,0 +1,371 @@
+
+.portfolioScroll {
+    height: 290px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.portfolioScroll .gridSection {
+
+}
+
+.portfolioScroll .gridSection .gridTest {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+}
+
+#leftArrow, #rightArrow {
+    padding-top: 65%;
+}
+
+#leftArrow:hover, #rightArrow:hover {
+    color: #666;
+}
+
+body {
+    font-family: Playfair Display,"Times New Roman",Georgia,Serif,Arial;
+    margin-top: 64px;
+    text-align: center;
+}
+
+/*-------Top navigation pane-------*/
+.navbar-default.navbar-fixed-top {
+    background-color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.navbar .topNav > li > a {
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-left {
+    margin-left: 100px;
+}
+
+.navbar .topNav > li > a:hover {
+    color: #f06;
+}
+
+#logo {
+    margin-right: 40px;
+    font-size: 46px !important;
+    letter-spacing: 5px !important;
+    text-align: center !important;
+    border: solid 2px !important;
+}
+
+.bg {
+/ / background-attachment: fixed;
+/ / background-size: cover;
+    height: 100vh;
+/ / background-repeat: no repeat;
+}
+
+/*-------introduction page-------*/
+.intro {
+    position: relative;
+    padding-top: 10%;
+}
+
+h1 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+}
+
+h3 {
+    color: black;
+    margin-top: 0;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+/*-------line between name and buttons-------*/
+hr {
+    width: 490px;
+    /*align: center; default is center */
+    border: solid 1px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+/*-------buttons e.g. LinkedIn-------*/
+.btn-responsive {
+    display: inline-block;
+    padding: 12px;
+}
+
+.topBtn {
+    color: #000000;
+    background-color: #ffffff;
+    border: solid #000000 2px;
+    box-shadow: 5px 5px 5px #383838;
+    margin-left: 20px;
+}
+
+.topBtn:hover {
+    background: #000000;
+    color: #ffffff;
+    border-color: #000000;
+    padding: 12px 20px 12px 20px;
+}
+
+.contactButtons {
+    margin-bottom: 100px;
+}
+
+/*-------About me section-------*/
+.aboutColor {
+    background: #f06;
+    height: 100%;
+}
+
+#readAboutMe {
+    margin-top: 10px;
+}
+
+.about-me-text, p, .languages {
+    text-align: left !important;
+    line-height: 200%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #fff;
+}
+
+.languages {
+    padding-left: 12% !important;
+}
+
+.about-me-text {
+    font-weight: 900;
+    padding-top: 10%;
+    width: 250px;
+    padding-right: 0;
+/ / margin-right: 0 px !important;
+    float: left;
+}
+
+p, .languages {
+    font-size: 18px;
+}
+
+.self-taught {
+    color: #000;
+}
+
+.self-taught:hover {
+    color: #000033;
+}
+
+.skills {
+    text-decoration: underline;
+}
+
+.me-photo {
+    height: 170px;
+    width: 170px;
+    margin-right: 140px;
+    margin-top: 11px;
+    transform: rotate(7deg);
+    border: #fff solid 5px;
+    box-shadow: 4px -5px 10px;
+/ / z-index: 1;
+}
+
+/*-------Portfolio section-------*/
+h2 {
+    margin-top: 0;
+}
+
+.recentPortfolio {
+    color: #000;
+    font-size: 20px;
+}
+
+.contact-row-1 {
+    height: 80px;
+}
+
+.contact-row {
+    height: 70px;
+}
+
+/*-------layout for Portfolio displays-------*/
+.grid {
+    position: relative;
+    padding: 2% 4% 2% 0;
+}
+
+.black_box {
+    background-color: #0d0d0d;
+    opacity: 0.95;
+}
+
+.bottom_row, .top_row {
+    color: white;
+    text-align: center !important;
+}
+
+.bottom_row {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+
+.grid .backdrop {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.grid .backdrop {
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 0;
+}
+
+.grid .backdrop_text {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+.grid .backdrop:hover {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    opacity: 1;
+    //transform: all ease .5s;
+    -webkit-transition: all ease .5s;
+}
+
+.grid:hover {
+    box-shadow: 5px 10px 5px #000000;
+}
+
+img.grid_img {
+    height: 170px;
+    width: 300px;
+}
+
+a.hidden {
+    display: none;
+}
+
+/*-------Contact Me-------*/
+/*2.0 text*/
+.extraLgTxt {
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: -2px;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: left;
+}
+
+.me {
+    letter-spacing: -2px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+/*-------Bottom navigation bar-------*/
+.navbar-default.navbar-fixed-bottom {
+    background-color: #262626;
+    height: 70px;
+/ / position: fixed;
+    margin-bottom: 0;
+}
+
+/*
+nav #bottomNav.nav>li>a {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  line-height: 12px;
+  color: #fff;
+}*/
+/*
+nav #bottomNav.nav>li>a:hover {
+ color: #f06;
+}*/
+.copyright {
+    font-size: 12px;
+    margin: 0 0 0 115px;
+    padding: 10px 0 0 0;
+    text-align: left !important;
+}
+
+.bottomBtn {
+    color: #262626;
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: #fff;
+    box-shadow: 0 0 0;
+    margin-left: 20px;
+}
+
+.bottomBtn:hover {
+    color: #f06;
+}
+
+.threeButtons {
+    padding-top: 5px;
+    margin-right: 0;
+}
+
+#formWrap {
+    margin-top: 5%;
+}
+
+input {
+    width: 250px;
+    margin: 0 0 0 10px;
+    height: 35px;
+    line-height: 33px;
+}
+
+textarea {
+    width: 250px;
+    margin: 0 0 0 10px;
+    height: 205px;
+    line-height: 33px;
+}
+
+.msgLine, .contactForm {
+    padding-top: 10px;
+
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 55px;
+}
+
+#submitBtn {
+    width: 100px;
+}
+
+#submitBtn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.msg {
+    vertical-align: top;
+}
+

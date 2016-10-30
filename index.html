@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <ul class="nav navbar-nav navbar-left topNav">
+        <li><a href="#home" class="target" id="logo">SL</a></li>
+        <li><a href="#home" class="target" id="homeBtn">Home</a></li>
+        <li><a href="#about" class="target" id="aboutBtn">About</a></li>
+        <li><a href="#portfolio" class="target" id="portfolioBtn">Portfolio</a></li>
+        <li><a href="#contact" class="target" id="contactBtn">Contact</a></li>
+    </ul>
+</nav>
+<div class="bg Home active-page" id="home-page">
+    <a name="home"></a>
+    <div class="intro">
+        <h1>Sophia Leng</h1>
+        <hr>
+        <h3>Front-End Software Engineer</h3>
+        <div class="row contactButtons">
+            <a href="https://www.linkedin.com/in/sophiadossland" target="_blank" class="btn btn-default btn-lg topBtn">
+                <i class="fa fa-linkedin fa-fw"></i>
+                <span class="network-name">Linkedin</span>
+            </a>
+            <a href="http://www.freecodecamp.com/sdossland" target="_blank" class="btn btn-default btn-lg topBtn">
+                <i class="fa fa-fire fa-fw"></i>
+                <span class="network-name">freeCodeCamp</span>
+            </a>
+            <a href="https://github.com/sdossland" target="_blank" class="btn btn-default btn-lg topBtn">
+                <i class="fa fa-github fa-fw"></i>
+                <span class="network-name">GitHub</span>
+            </a>
+        </div>
+    </div>
+    <div class="bg Portfolio">
+        <a name="portfolio"></a>
+        <p class="recentPortfolio">Here's a selection of some of my recent work...</p>
+        <div class="row">
+            <div class="col-md-1">
+                <i class="fa fa-caret-left fa-5x" aria-hidden="true" id="leftArrow"></i>
+            </div>
+            <div class=col-md-10>
+                <div class="portfolioScroll">
+                    <div class="gridSection">
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <a href="http://codepen.io/sdossland/pen/ezpqZx"><img
+                                        src="http://codepen.io/sdossland/pen/ezpqZx.jpg" class="grid_img"/></a>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">Simon Game</p>
+                                <p class="bottom_row">Bootstrap and jQuery</p>
+                            </div>
+                        </div>
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <img src="https://40.media.tumblr.com/a73e79ce9844761d7cdc93d202b5cea1/tumblr_nwh4iomduD1ud7rr3o1_1280.jpg"
+                                     class="grid_img"/>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">Tic Tac Toe Game</p>
+                                <p class="bottom_row">Bootstrap and jQuery</p>
+                            </div>
+                        </div>
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <img src="https://41.media.tumblr.com/5abea52ea28e9ea20ab995ebd23299a1/tumblr_nwh4iomduD1ud7rr3o2_1280.jpg"
+                                     class="grid_img"/>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">Pomodoro Clock</p>
+                                <p class="bottom_row">Javascript and API</p>
+                            </div>
+                        </div>
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <img src="https://40.media.tumblr.com/7512ad23b7e68304a65182988b9c804a/tumblr_nwy76xfEXi1ud7rr3o1_1280.png"
+                                     class="grid_img"/>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">JavaScript Calculator</p>
+                                <p class="bottom_row">JavaScript and Bootstrap</p>
+                            </div>
+                        </div>
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <img src="https://41.media.tumblr.com/59b50efb8f7435fef9f87fd871b90d7a/tumblr_nxhm4k1jI81ud7rr3o1_1280.jpg"
+                                     class="grid_img"/>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">Twitch.tv Streamers</p>
+                                <p class="bottom_row">JavaScript and Bootstrap</p>
+                            </div>
+                        </div>
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <img src="https://36.media.tumblr.com/030b4966650a0d1dac0bbcca6fe572e8/tumblr_nxhm7qz6Y91ud7rr3o1_1280.jpg"
+                                     class="grid_img"/>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">Wikipedia Viewer</p>
+                                <p class="bottom_row">API and jQuery</p>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <img src="https://40.media.tumblr.com/7512ad23b7e68304a65182988b9c804a/tumblr_nwy76xfEXi1ud7rr3o1_1280.png"
+                                     class="grid_img"/>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">Weather App</p>
+                                <p class="bottom_row">API and Bootstrap</p>
+                            </div>
+                        </div>
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <img src="https://41.media.tumblr.com/59b50efb8f7435fef9f87fd871b90d7a/tumblr_nxhm4k1jI81ud7rr3o1_1280.jpg"
+                                     class="grid_img"/>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">Tribute Page</p>
+                                <p class="bottom_row">CSS and HTML</p>
+                            </div>
+                        </div>
+                        <div class="gridTest">
+                            <div class="backdrop">
+                            </div>
+                            <div class="row">
+                                <img src="https://36.media.tumblr.com/030b4966650a0d1dac0bbcca6fe572e8/tumblr_nxhm7qz6Y91ud7rr3o1_1280.jpg"
+                                     class="grid_img"/>
+                            </div>
+                            <div class="row black_box">
+                                <p class="top_row">Coding in progress...</p>
+                                <p class="bottom_row">JavaScript, jQuery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <i class="fa fa-caret-right fa-5x" aria-hidden="true" id="rightArrow"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg About page" id="about-page">
+    <a name="about"></a>
+    <div class="col-md-4 col-md-offset-1 aboutColor">
+        <div class="row">
+            <h2 class="about-me-text">[my story]</h2>
+            <img class="me-photo img-me" src="https://avatars.githubusercontent.com/u/13722524?v=3"
+                 height="158px" width="158px">
+        </div>
+        <div class="row" id="readAboutMe">
+            <p class="about-me">
+                I'm a <a class="self-taught" href="http://www.freecodecamp.com/">self-taught</a> web developer based in
+                the San Francisco bay area. I'm currently working on enhancing my skills. My passion is to use
+                technology based solutions, to help solve real
+                world challenges.
+                <br>
+                <br><span class="skills"> Languages and Frameworks</span>
+            </p>
+            <br>
+            <ul class="languages">
+                <li>Javascript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>jQuery</li>
+                <li>Bootstrap3</li>
+            </ul>
+            <br>
+            <p><span class="skills"> Tools & expertise</span></p>
+            <br>
+            <ul class="languages">
+                <li>Git</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bg Portfolio page" id="portfolio-page">
+    <a name="portfolio"></a>
+    <div class="row section_1">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 grid">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text"></i>
+            </div>
+            <div class="row">
+                <a href="http://codepen.io/sdossland/pen/ezpqZx"><img src="http://codepen.io/sdossland/pen/ezpqZx.jpg"
+                                                                      class="grid_img"/></a>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">Simon Game</p>
+                <p class="bottom_row">Bootstrap and jQuery</p>
+            </div>
+        </div>
+        <div class="col-md-3 grid">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text"></i>
+            </div>
+            <div class="row">
+                <img src="https://40.media.tumblr.com/a73e79ce9844761d7cdc93d202b5cea1/tumblr_nwh4iomduD1ud7rr3o1_1280.jpg"
+                     class="grid_img"/>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">Tic Tac Toe Game</p>
+                <p class="bottom_row">Bootstrap and jQuery</p>
+            </div>
+        </div>
+        <div class="col-md-3 grid backdrop">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text">
+                </i>
+            </div>
+            <div class="row">
+                <img src="https://41.media.tumblr.com/5abea52ea28e9ea20ab995ebd23299a1/tumblr_nwh4iomduD1ud7rr3o2_1280.jpg"
+                     class="grid_img"/>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">Pomodoro Clock</p>
+                <p class="bottom_row">Javascript and API</p>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row section_2">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 grid">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text"></i>
+            </div>
+            <div class="row">
+                <img src="https://40.media.tumblr.com/7512ad23b7e68304a65182988b9c804a/tumblr_nwy76xfEXi1ud7rr3o1_1280.png"
+                     class="grid_img"/>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">JavaScript Calculator</p>
+                <p class="bottom_row">JavaScript and Bootstrap</p>
+            </div>
+        </div>
+        <div class="col-md-3 grid">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text"></i>
+            </div>
+            <div class="row">
+                <img src="https://41.media.tumblr.com/59b50efb8f7435fef9f87fd871b90d7a/tumblr_nxhm4k1jI81ud7rr3o1_1280.jpg"
+                     class="grid_img"/>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">Twitch.tv Streamers</p>
+                <p class="bottom_row">JavaScript and Bootstrap</p>
+            </div>
+        </div>
+        <div class="col-md-3 grid">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text"></i>
+            </div>
+            <div class="row">
+                <img src="https://36.media.tumblr.com/030b4966650a0d1dac0bbcca6fe572e8/tumblr_nxhm7qz6Y91ud7rr3o1_1280.jpg"
+                     class="grid_img"/>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">Wikipedia Viewer</p>
+                <p class="bottom_row">API and jQuery</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row section_3">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 grid">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text"></i>
+            </div>
+            <div class="row">
+                <img src="https://40.media.tumblr.com/7512ad23b7e68304a65182988b9c804a/tumblr_nwy76xfEXi1ud7rr3o1_1280.png"
+                     class="grid_img"/>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">Weather App</p>
+                <p class="bottom_row">API, JavaScript</p>
+            </div>
+        </div>
+        <div class="col-md-3 grid">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text"></i>
+            </div>
+            <div class="row">
+                <img src="https://41.media.tumblr.com/59b50efb8f7435fef9f87fd871b90d7a/tumblr_nxhm4k1jI81ud7rr3o1_1280.jpg"
+                     class="grid_img"/>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">Tribute Page</p>
+                <p class="bottom_row">Bootstrap, HTML, CSS</p>
+            </div>
+        </div>
+        <div class="col-md-3 grid">
+            <div class="backdrop">
+                <i class="fa fa-fire fa-fw backdrop_text"></i>
+            </div>
+            <div class="row">
+                <img src="https://36.media.tumblr.com/030b4966650a0d1dac0bbcca6fe572e8/tumblr_nxhm7qz6Y91ud7rr3o1_1280.jpg"
+                     class="grid_img"/>
+            </div>
+            <div class="row black_box">
+                <p class="top_row">Coding in progress . . .</p>
+                <p class="bottom_row">JavaScript and jQuery</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+<div class="bg Contact page" id="contact-page">
+    <a name="contact"></a>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form id="formWrap">
+                <fieldset>
+                    <h3>Contact me</h3>
+                    <div class="row contactForm">
+                        <label class="labelone" for="name">Name:</label>
+                        <input id="name" name="name"/>
+                    </div>
+                    <div class="row contactForm">
+                        <label for="email">Email:</label>
+                        <input id="email" name="email"/>
+                    </div>
+                    <div class="row msgLine">
+                        <label for="message" class="msg">Message:</label>
+                        <textarea id="message" class="textarea" name="message" rows="30" cols="3"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="row contactForm">
+                        <input class="btn" id="submitBtn" type="submit" value="Send Email"/>
+                    </div>
+                    <div class="row contactForm">
+                        <h5>*All fields are required</h5>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="row contact-row-1"></div>
+    <div class="row contact-row-2">
+        <div class="col-md-7 col-md-offset-2">
+            <p class="connect">Connect with . . .<br><span class="me">me</span><b class="extraLgTxt">2.0</b></p>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-default navbar-fixed-bottom" id="bottomNav">
+    <div class="row">
+        <div class="col-md-3">
+            <p class="copyright">© 2016 Sophia Leng</p>
+        </div>
+        <div class="col-md-6">
+            <div class="threeButtons">
+                <a href="https://www.linkedin.com/in/sophiadossland" target="_blank" class="btn btn-default bottomBtn">
+                    <i class="fa fa-linkedin fa-fw"></i>
+                </a>
+                <a href="http://www.freecodecamp.com/sdossland" target="_blank" class="btn btn-default bottomBtn">
+                    <i class="fa fa-fire fa-fw"></i>
+                </a>
+                <a href="https://github.com/sdossland" target="_blank" class="btn btn-default bottomBtn">
+                    <i class="fa fa-github fa-fw"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</nav>
+</body>
+</html>
